@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-ECTRIC - Maquette complète</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+  <div class="container nav">
+    <!-- Logo -->
+    <a href="index.html">
+      <img src="image/E-ECTRIC3.png" alt="Logo" class="logo">
+    </a>
+
+    <!-- MENU DESKTOP -->
+    <ul class="desktop-menu">
+      <li><a href="Qui-Sommes-Nous.html">Qui sommes-nous ?</a></li>
+      <li><a href="Nos-Services.html">Nos services</a></li>
+      <li class="dropdown">
+        <a href="#solaire">Solaire</a>
+        <ul class="submenu">
+          <li><a href="#">Sous-menu 1</a></li>
+          <li><a href="#">Sous-menu 2</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#axes">Nos axes stratégiques</a>
+        <ul class="submenu">
+          <li><a href="#">Sous-menu 1</a></li>
+          <li><a href="#">Sous-menu 2</a></li>
+        </ul>
+      </li>
+      <li><a href="#contact">Nous contacter</a></li>
+    </ul>
+
+    <!-- BOUTON MOBILE (Hamburger) -->
+    <button class="mobile-toggle" id="mobileBtn">☰</button>
+  </div>
+
+  <!-- MENU MOBILE -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#qui">Qui sommes-nous ?</a>
+    <a href="#services">Nos services</a>
+    <a href="#solaire">Solaire</a>
+    <a href="#axes">Nos axes stratégiques</a>
+    <a href="#contact">Nous contacter</a>
+  </div>
+</header>
+
+
+  <!-- HERO / CARROUSEL -->
+  <section class="hero container">
+  <div class="carousel">
+  <div class="slides">
+    <div class="slide active" style="background-image: url('https://cdn.pixabay.com/photo/2023/09/10/11/16/solar-8244680_1280.jpg');"></div>
+    <div class="slide" style="background-image: url('https://cdn.pixabay.com/photo/2017/03/13/07/34/photovoltaic-2138992_1280.jpg');"></div>
+    <div class="slide" style="background-image: url('https://cdn.pixabay.com/photo/2016/02/02/18/31/solar-panel-1175819_1280.jpg');"></div>
+    <div class="slide" style="background-image: url('https://cdn.pixabay.com/photo/2016/06/24/22/24/solar-panels-1477987_1280.jpg');"></div>
+    <div class="slide" style="background-image: url('https://cdn.pixabay.com/photo/2019/04/05/23/53/solar-cell-4106401_1280.jpg');"></div>
+
+  </div>
+  <div class="dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</div>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <main class="container">
+
+    <!-- Qui sommes-nous -->
+    <section id="qui">
+      <h2>Qui sommes-nous ?</h2>
+      <p>E-ECTRIC, c’est l’histoire de deux passionnés d’électricité et d’énergie solaire qui ont décidé de mettre leurs compétences en commun pour accompagner leurs clients dans la réalisation de projets électriques et photovoltaïques.</p>
+
+      <p>En tant qu’auto-entrepreneurs, nous avons fait le choix de proposer un service à taille humaine, basé sur l’écoute, la proximité et la réactivité. Notre force réside dans la combinaison de savoir-faire complémentaires et d’une exigence constante de qualité technique et réglementaire.</p>
+    </section>
+
+    <!-- Nos services -->
+    <section id="services">
+      <h2>Nos services</h2>
+      <div class="card">
+        <h3>E-ECTRIC</h3>
+        <p>Nous intervenons à toutes les étapes d’un projet, de l’étude à la maintenance, avec un accompagnement sur mesure :</p>
+        <ul>
+          <li>Réponse à appels d’offres : rédaction et montage technique pour présenter des dossiers clairs et complets.</li>
+          <li>Études électriques : réalisation de schémas unifilaires, élaboration de plans électriques de bâtiments et rédaction de notes de calculs.</li>
+          <li>Photovoltaïque : dimensionnement et réalisation de centrales jusqu’à 1 MWc, avec un suivi rigoureux de la conception à la mise en service.</li>
+          <li>Exploitation et maintenance : élaboration de plans de maintenance, interventions correctives et préventives pour garantir la performance des installations.</li>
+          <li>Spécifications techniques : établissement de cahiers des charges détaillés pour faciliter la consultation et l’achat d’équipements.</li>
+  
+        </ul>
+      </div>
+    </section>
+
+    <!-- Nos engagements -->
+<section id="engagement">
+  <div class="Qui">
+    <h2>Notre engagement</h2>
+
+    <p>
+      Nous croyons que chaque projet mérite une attention particulière. 
+      C’est pourquoi nous travaillons avec rigueur, transparence et passion, 
+      afin d’assurer :
+    </p>
+
+    <ul>
+      des installations fiables et performantes,
+      une conformité totale aux normes en vigueur,
+      un accompagnement de confiance, du premier échange jusqu’à la maintenance.
+    </ul>
+
+    <p>
+      E-ECTRIC, c’est la flexibilité et la proximité d’une petite structure, 
+      avec le sérieux et la compétence d’un partenaire technique de confiance.
+    </p>
+  </div>
+</section>
+
+
+    <!-- Nos axes stratégiques -->
+    <section id="axes">
+      <h2>Nos axes stratégiques</h2>
+      <div class="grid">
+        <div class="card">
+          <h4>Transition énergétique</h4>
+          <p>Accompagner la décarbonation des bâtiments et la montée en puissance des énergies renouvelables.</p>
+        </div>
+        <div class="card">
+          <h4>Innovation & digitalisation</h4>
+          <p>Intégrer des outils numériques et des solutions de pilotage pour optimiser la production et la maintenance.</p>
+        </div>
+        <div class="card">
+          <h4>Qualité & sécurité</h4>
+          <p>Respect des normes en vigueur et procédures rigoureuses sur site.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+<section id="contact">
+  <div class="contact-container">
+    <h2>Nous contacter</h2>
+    <p class="intro">
+      Pour toute demande concernant l’installation ou la maintenance de panneaux solaires, merci de remplir ce formulaire et nous vous contacterons dans les plus brefs délais.
+    </p>
+
+    <form action="https://formspree.io/f/ton-id-formspree" method="POST" class="contact-form">
+      <!-- Nom -->
+      <div class="form-group">
+        <label for="nom">Nom complet *</label>
+        <input type="text" id="nom" name="nom" required>
+      </div>
+
+      <!-- Email -->
+      <div class="form-group">
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <!-- Téléphone -->
+      <div class="form-group">
+        <label for="telephone">Téléphone</label>
+        <input type="tel" id="telephone" name="telephone">
+      </div>
+
+      <!-- Sujet -->
+      <div class="form-group">
+        <label for="sujet">Sujet *</label>
+        <select id="sujet" name="sujet" required>
+          <option value="">Sélectionnez un sujet</option>
+          <option value="installation">Installation de panneaux solaires</option>
+          <option value="maintenance">Maintenance d’une centrale</option>
+          <option value="devis">Demande de devis</option>
+          <option value="autre">Autre</option>
+        </select>
+      </div>
+
+      <!-- Message -->
+      <div class="form-group">
+        <label for="message">Votre message *</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+
+      <!-- Bouton -->
+      <div class="form-actions">
+        <button type="submit" class="btn-contact">Envoyer ma demande</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer">
+      <div>© <span id="year"></span> E-ECTRIC</div>
+      <div>
+        <a href="#">Politique de confidentialité</a> | 
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

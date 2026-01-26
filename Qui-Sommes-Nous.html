@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-ECTRIC - Maquette complète</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+  <div class="container nav">
+    <!-- Logo -->
+     <a href="index.html">
+      <img src="image/E-ECTRIC3.png" alt="Logo" class="logo">
+    </a>
+
+    <!-- MENU DESKTOP -->
+    <ul class="desktop-menu">
+      <li><a href="Qui-Sommes-Nous.html">Qui sommes-nous ?</a></li>
+      <li><a href="Nos-Services.html">Nos services</a></li>
+      <li class="dropdown">
+        <a href="#solaire">Solaire</a>
+        <ul class="submenu">
+          <li><a href="#">Sous-menu 1</a></li>
+          <li><a href="#">Sous-menu 2</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#axes">Nos axes stratégiques</a>
+        <ul class="submenu">
+          <li><a href="#">Sous-menu 1</a></li>
+          <li><a href="#">Sous-menu 2</a></li>
+        </ul>
+      </li>
+      <li><a href="#contact">Nous contacter</a></li>
+    </ul>
+
+    <!-- BOUTON MOBILE (Hamburger) -->
+    <button class="mobile-toggle" id="mobileBtn">☰</button>
+  </div>
+
+  <!-- MENU MOBILE -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#qui">Qui sommes-nous ?</a>
+    <a href="#services">Nos services</a>
+    <a href="#solaire">Solaire</a>
+    <a href="#axes">Nos axes stratégiques</a>
+    <a href="#contact">Nous contacter</a>
+  </div>
+</header>
+
+
+  <!-- HERO / CARROUSEL -->
+  <section class="hero container">
+  <div class="carousel">
+  <div class="slides">
+    <div class="slide active" style="background-image: url('https://cdn.pixabay.com/photo/2023/09/10/11/16/solar-8244680_1280.jpg');"></div>
+    <div class="slide" style="background-image: url('https://cdn.pixabay.com/photo/2017/03/13/07/34/photovoltaic-2138992_1280.jpg');"></div>
+    <div class="slide" style="background-image: url('https://cdn.pixabay.com/photo/2016/02/02/18/31/solar-panel-1175819_1280.jpg');"></div>
+    <div class="slide" style="background-image: url('https://cdn.pixabay.com/photo/2016/06/24/22/24/solar-panels-1477987_1280.jpg');"></div>
+    <div class="slide" style="background-image: url('https://cdn.pixabay.com/photo/2019/04/05/23/53/solar-cell-4106401_1280.jpg');"></div>
+
+  </div>
+  <div class="dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</div>
+  </section>
+
+    <!-- Nos axes stratégiques -->
+    <section id="axes">
+      <h2>A propos de nous</h2>
+      <div class="grid">
+        <div class="card">
+          <h4>Qui sommes nous ?</h4>
+            <p>E-ECTRIC est un bureau d'études spécialisé dans l'analyse, 
+               la conception et le chiffrage de projets éléctriques, pour les bâtiments résidentiels, 
+               tertiaires ou industriels, de même que pour les projets photovoltaïques de petite et grande échelle. <br><br>
+            </p>
+
+            <p>Nous intervenons en amont de vos projets pour garantir des solutions techniques fiables, 
+               conformes aux normes en vigueur, et parfaitement adaptées à vos besoins. 
+               Grâce à notre maîtrise des outils de dimensionnement et notre expertise terrain, 
+               nous transformons vos idées en projets structurés, précis et optimisés, 
+               tant sur le plan technique que budgétaire. <br><br>
+            </p>
+
+            <p>Faire appel à notre savoir-faire, c'est s'assurer d'un accompagnement rigoureux, 
+               de la faisabilité à la projection financière, pour une exécution sans surprise et une performance durable.
+            </p>
+        </div>
+
+        <div class="card">
+          <h4>Vision & Mission</h4>
+            <p>Devenir un acteur de référence en ingénierie éléctrique en Afrique centrale,
+               en apportant des solutions d'étude et de chiffrage précises,
+               innovantes et accessibles à tous les porteurs de projets,
+               qu'ils soient publics ou privés <br><br>
+            </p>
+            <p>
+              Bâtir un avenir où chaque infrastrucure électrique, 
+              petite ou grande, repose sur une base solide :
+              étude rigoureuse, chiffrage juste, et, expertise technique au service de la fiabilité.
+            </p>
+            <br><br><br><br><br>
+            <h3>
+              Nous Joindre
+            </h3>
+            <h4>
+              📞 Mobile | WhatsApp : <a href="tel:+33755400717">+33 7 55 40 07 17</a>  <br>
+
+
+              📧 contact@e-ectric.com<br>
+              🌐 RCA, Bangui
+            </h4>
+
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer">
+      <div>© <span id="year"></span> E-ECTRIC</div>
+      <div>
+        <a href="https://www.captain.legal/fr/gestion-entreprise/politique-de-confidentialite-site-internet-donnees-personnelles/" target="_blank">Politique de confidentialité</a> | 
+        <a href="https://www.instagram.com/ton_nom_dutilisateur/" target="_blank">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
