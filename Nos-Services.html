@@ -13,28 +13,21 @@
   <div class="container nav">
     <!-- Logo -->
     <a href="index.html">
-      <img src="image/E-ECTRIC3.png" alt="Logo" class="logo">
+      <img src="image/E.ECTRIC.png" alt="Logo" class="logo">
     </a>
 
     <!-- MENU DESKTOP -->
     <ul class="desktop-menu">
-      <li><a href="Qui-Sommes-Nous.html">Qui sommes-nous ?</a></li>
       <li><a href="Nos-Services.html">Nos services</a></li>
       <li class="dropdown">
-        <a href="#solaire">Solaire</a>
-        <ul class="submenu">
+        <a href="Nos-engagements.html">Nos engagements</a>
+         <!-- <ul class="submenu">
           <li><a href="#">Sous-menu 1</a></li>
           <li><a href="#">Sous-menu 2</a></li>
-        </ul>
+        </ul>-->
       </li>
-      <li class="dropdown">
-        <a href="#axes">Nos axes stratégiques</a>
-        <ul class="submenu">
-          <li><a href="#">Sous-menu 1</a></li>
-          <li><a href="#">Sous-menu 2</a></li>
-        </ul>
-      </li>
-      <li><a href="#contact">Nous contacter</a></li>
+      <li><a href="a-propos.html">A propos</a></li>
+      <li><a href="Nous-Contacter.html">Nous contacter</a></li>
     </ul>
 
     <!-- BOUTON MOBILE (Hamburger) -->
@@ -43,11 +36,10 @@
 
   <!-- MENU MOBILE -->
   <div class="mobile-nav" id="mobileNav">
-    <a href="#qui">Qui sommes-nous ?</a>
-    <a href="#services">Nos services</a>
-    <a href="#solaire">Solaire</a>
-    <a href="#axes">Nos axes stratégiques</a>
-    <a href="#contact">Nous contacter</a>
+    <a href="Nos-Services.html">Nos services</a>
+    <a href="Nos-engagements.html">Engagements</a>
+    <a href="a-propos.html">A propos</a>
+    <a href="Nous-Contacter.html">Nous contacter</a>
   </div>
 </header>
 
@@ -74,39 +66,172 @@
   </section>
 
     <!-- Nos axes stratégiques -->
-    <section id="axes">
-      <h2>Nos services</h2>
-      <div class="grid">
-        <div class="card">
-          <h4> 📑 Etude et plan d'exécution </h4>
-          <p>
-            <ul>
-                <li>Conception et dimensionnement d'installations électriques</li><br>
-                <li>Plan et note de calcul électrique</li><br>
-                <li>Mise en place de solution de kit solaire avec plusieurs gammes et plusieurs puissances </li>
-            </ul>
-          </p>
-        </div>
-        <div class="card">
-           <h4> 📑 Travaux et maintenance </h4>
-          <p>
-            <ul>
-                <li> 🛠️ Installation et maintenance de systèmes photovoltaïques (clé en main) </li>
-            </ul>
-          </p>
-        </div>
-        <div class="card">
-          <h4> ⚙️ Conseil et expertise technique </h4>
-          <p>
-            <ul>
-                <li>Optimisation technico-économique de projets électriques</li><br>
-                <li>Conseil et accompagnement dans la réalisation de projets électriques</li><br>
-                <li>Contre expertise sur les projets électriques </li>
-            </ul>
-          </p>
-        </div>
+    <section class="services-section">
+  <h2 class="services-title">Nos domaines d’activités</h2>
+
+  <div class="services-grid">
+
+    <!-- Service 1 -->
+    <div class="service-card">
+      <div class="service-icon blue">
+        <img src="image/solaire.png" alt="Énergie solaire">
       </div>
-    </section>
+      <h3>Énergie renouvelable<br>Installation solaire</h3>
+    </div>
+
+    <!-- Service 2 -->
+    <div class="service-card">
+      <div class="service-icon green">
+        <img src="image/usine.png" alt="Installations électriques">
+      </div>
+      <h3>Installations électriques<br>CFO – CFA</h3>
+    </div>
+
+    <!-- Service 3 -->
+    <div class="service-card">
+      <div class="service-icon teal">
+        <img src="image/conseil.png" alt="Conseil et expertise">
+      </div>
+      <h3>Conseil et expertise<br>technique</h3>
+    </div>
+
+  </div>
+</section>
+
+<section class="service-detail-section">
+  <h2 class="service-detail-title">
+    Nos domaines : Installation solaire
+  </h2>
+
+  <!-- Illustrations -->
+  <div class="service-illustrations">
+    <div class="illustration-item">
+      <div class="illustration-icon">
+      <img src="image/toiture.png" alt="Toiture solaire">
+     </div>
+      <h3>Toiture</h3>
+    </div>
+
+    <div class="illustration-item">
+            <div class="illustration-icon">
+              <img src="image/ombriere.png" alt="Ombrière photovoltaïque">
+            </div>
+      <h3>Ombrière photovoltaïque</h3>
+    </div>
+
+    <div class="illustration-item">
+            <div class="illustration-icon">
+              <img src="image/centrale.png" alt="Centrale solaire au sol">
+            </div>
+              <h3>Centrale solaire au sol</h3>
+    </div>
+  </div>
+
+  <!-- Bande bleue -->
+  <div class="service-info-bar">
+
+    <!-- GAUCHE -->
+    <div class="service-info-left">
+      <p class="power-range">
+        10kW à 150MW
+      </p>
+
+      <p class="solutions-title">
+        2 solutions adaptées :
+      </p>
+
+      <ul>
+        <li>Kit solaire – 5 gammes prêtes à l’emploi</li>
+        <li>Installation sur mesure</li>
+      </ul>
+    </div>
+
+    <!-- DROITE -->
+    <div class="service-info-right">
+      <p class="services-title">
+        Services :
+      </p>
+
+      <ul class="check-list">
+        <li>Étude de faisabilité</li>
+        <li>Conception et simulation</li>
+        <li>Installation et mise en service</li>
+        <li>Maintenance et supervision</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section class="service-detail-section">
+
+  <h2 class="service-detail-title2">
+    Nos domaines : Installations électriques
+  </h2>
+
+  <p class="service-subtitle">
+    Conception et réalisation d’installations électriques :
+  </p>
+
+  <!-- CFO / CFA -->
+  <div class="cfo-cfa-list">
+    <p><strong>◦ Courant fort (CFO)</strong> : Distribution, tableaux, câblage</p>
+    <p><strong>◦ Courant faible (CFA)</strong> : Réseaux, sécurité, contrôle d’accès</p>
+  </div>
+
+  <!-- CONTENU PRINCIPAL -->
+  <div class="service-content">
+
+    <!-- IMAGE -->
+    <div class="service-image blue-overlay">
+      <img src="image/installation.png" alt="Installations électriques">
+    </div>
+
+     <!-- SERVICES -->
+    <div class="service-list">
+      <h3>Services :</h3>
+      <ul class="check-list2">
+        <li>Étude de faisabilité</li>
+        <li>Conception</li>
+        <li>Installation</li>
+        <li>Mise en conformité</li>
+        <li>Maintenance*</li>
+      </ul>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="service-section conseil-section">
+  <div class="service-wrapper">
+
+    <div class="service-left">
+      <h2>Conseil & expertise technique</h2>
+
+      <p class="service-objectifs">
+        <strong>Objectifs :</strong>
+        Sécurité, Performance et Conformité des installations
+      </p>
+
+      <div class="service-box">
+        <h3>Services Ingénierie</h3>
+        <ul class="check-list">
+          <li>Note de calcul électrique</li>
+          <li>Audit technique et diagnostics</li>
+          <li>Assistance à Maîtrise d’ouvrage (AMO)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="service-right">
+      <img src="image/expertise.png" alt="Conseil et expertise">
+    </div>
+
+  </div>
+</section>
+
+
 
   </main>
 
